@@ -56,7 +56,9 @@ int main(){
                     else if((seed_number) && (!soil_number)){
                         map_array[j] = STOD(number);
                         if(Word[i] == '\n'){
-                            for(int m = 0; m<seed_size)
+                            for(int m = 0; m<seed_size; m++){
+                                numstart = 1;
+                            }
 
 
                         }
